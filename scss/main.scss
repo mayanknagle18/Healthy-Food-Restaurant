@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// partial files start  
+@import "./custom-variables";
+@import "./header";
+@import "./reset";
+@import "./custom-button";
+@import "./form";
+@import "./footer";
+@import "./common";
+// partial files end
+@import "./custom";
+@import "./responsive";

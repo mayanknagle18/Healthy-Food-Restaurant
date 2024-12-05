@@ -1,0 +1,270 @@
+// banner style start here
+.hfr_banner{
+    .hfr_banner_wrap{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+    }
+    .banner_content{
+        text-align: center;
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+        .hfr_article{
+            h1{
+                font-family: $ubuntu_font;
+                color: $white_color;
+                margin-bottom: 40px;
+            }
+            h4{
+                color: $white_color;
+                font-weight: $fw_regular;
+            }
+        }
+    }
+}
+// banner style end here
+
+// shape divider one style start here
+.hfr_shape_divider_one{
+    .custom_shape_divider {
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        svg {
+            display: block;
+            width: calc(185% + 1.3px);
+            height: 218px;
+            transform: rotateY(180deg);
+        }
+        .shape-fill {
+            fill: $primary_color;
+        }
+    }
+}
+// shape divider one style end here
+
+// popular menu style start here
+.hfr_popular_menu{
+    background-color: $light_green_color;
+    padding: 280px 0 100px 0;
+    margin-top: -218px;
+    .popular_main_wrap{
+        margin-bottom: 60px;
+    }
+    .hfr_article{
+        h3{
+            font-family: $ubuntu_font;
+            color: $primary_color;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+    }
+    .btn_wrap{
+        text-align: center;
+    }
+}
+// popular menu style end here
+
+// discount style start here
+.hfr_discount, .hfr_promo {
+    background-color: $white_color;
+}
+
+.discount_bg_img, .promo_bg_img{
+    display: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.hfr_discount_wrap {
+    padding: 150px 0;
+    position: relative;
+    &::before{
+        content: "";
+        background-image: url('../../assets/images/background/discount_bg.png');
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 0;
+    }
+}
+
+.discount_content_wrap {
+    padding-left: 40px;
+    .hfr_article{
+        h3{
+            font-family: $ubuntu_font;
+            margin-bottom: 25px;
+        }
+        h5{
+            margin-bottom: 50px;
+        }
+    }
+}
+// discount style end here
+
+// promo style start here
+.hfr_promo_wrap{
+    padding: 150px 0;
+    position: relative;
+    &::before{
+        content: "";
+        background-image: url('../../assets/images/background/january_promo_bg.png');
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 0;
+    }
+}
+
+.promo_content_wrap {
+    padding-right: 40px;
+    .hfr_article{
+        h3{
+            font-family: $ubuntu_font;
+            margin-bottom: 25px;
+        }
+        h5{
+            margin-bottom: 50px;
+        }
+    }
+}
+// promo style end here
+
+// how to order style start here
+.hfr_htorder{
+    padding: 100px 0;
+    .hfr_article{
+        h3{
+            font-family: $ubuntu_font;
+            color: $white_color;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+    }
+}
+// how to order style end here
+
+// free delivery style start here
+.hfr_free_delivery {
+    background-image: url('../../assets/images/background/free_delivery_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.free_delivery_content{
+    max-width: 790px;
+    margin: 0 auto;
+    .hfr_article{
+        text-align: center;
+        h2{
+            font-family: $ubuntu_font;
+            color: $primary_color;
+            margin-bottom: 30px;
+        }
+        h5{
+            font-size: 29px;
+            line-height: 39px;
+            color: $primary_color;
+            margin-bottom: 50px;
+        }
+    }
+}   
+// free delivery style end here
+
+// waiters style start here
+.hfr_waiters{
+    background-color: $light_green_color;
+    padding: 100px 0 50px 0;
+}
+
+.waiters_wrap{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .quote_img{
+        width: 60px;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 30px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    h4{
+        font-size: 37px;
+        line-height: 47px;
+        color: $primary_color;
+        font-weight: $fw_regular;
+        margin-bottom: 25px;
+    }
+    h3{
+        font-family: $ubuntu_font;
+        font-size: 42px;
+        line-height: 52px;
+        color: $primary_color;
+        margin-bottom: 40px;
+    }
+    .social_links{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .link_wrap{
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+// waiters style end here
+
+// shape divider two style start here
+.hfr_shape_divider_two{
+    .custom_shape_divider {
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        svg {
+            display: block;
+            width: calc(185% + 1.3px);
+            height: 218px;
+            transform: rotateY(180deg);
+        }
+        .shape-fill {
+            fill: $light_green_color;
+        }
+    }
+}
+
+// shape divider two style end here
